@@ -10,16 +10,25 @@ White: FFFDFC
 /*Global style
 ---------------------------*/
 body {
-    
+    font-family: 'Roboto', sans-serif;
 }
-
+h1, h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400
+}
+h1 {
+    font-size: 80px;
+}
+h2{
+    font-size: 40px;
+}
 a {
-    color: red:
-        hover
+    color: mediumblue;       
 }
 a:hover {
     text-decoration: none;
 }
+
 /*header and footer
 ---------------------------*/
 header, footer {
