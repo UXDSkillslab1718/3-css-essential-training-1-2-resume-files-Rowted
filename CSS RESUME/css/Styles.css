@@ -1,3 +1,43 @@
+/* Colour Palette
+Dark slate Gray: #2E5266
+Light slate grey: #6E8898
+Wild Blue: #9FB1BC
+Light Gray: #D3D0CB
+Meat Brown: #E2C044
+Baby Powder: #FFFEF9
+White: FFFDFC
+*/
+/*Global style
+---------------------------*/
 body {
-    background: lightblue;
+    
+}
+
+a {
+    color: red:
+        hover
+}
+a:hover {
+    text-decoration: none;
+}
+/*header and footer
+---------------------------*/
+header, footer {
+    background: #E2C044;
+}
+header h1, header h2{
+    color: #FFFDFC;
+}
+/*Work Experience
+---------------------------*/
+.skills  {
+    background: #6E8898; 
+    color: #FFFEF9
+}
+
+/*Education
+---------------------------*/
+.education {
+    background: #D3D0CB;
+    color: black;
 }
