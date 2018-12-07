@@ -9,24 +9,47 @@ White: FFFDFC
 */
 /*Global style
 ---------------------------*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
+    margin:0;
 }
 h1, h2 {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 400
+    font-weight: 700
 }
 h1 {
-    font-size: 80px;
+    font-size: 60px;
 }
 h2{
-    font-size: 40px;
+    font-size: 25px;
+    margin-top: 0;
+    font-weight: 700
 }
 a {
     color: mediumblue;       
 }
-a:hover {
-    text-decoration: none;
+.contentWrap {
+    max-width:950px;
+    margin:0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
+.colNarrow {
+    width: 30%;
+    float: left;
+}
+.colWide {
+    width: 70%;
+    float:left;
+    padding-left: 25px
+    
 }
 
 /*header and footer
@@ -34,8 +57,32 @@ a:hover {
 header, footer {
     background: #E2C044;
 }
+/* header */
+.profileImg {
+    border-radius: 50%;
+}
+header {
+    text-align: center;
+}
 header h1, header h2{
     color: #FFFDFC;
+    margin: 0;
+}
+ 
+
+/* footer */
+footer{
+    text-align: center;
+}
+.contactInfo a {
+    background: #FFFEF9;
+    margin: 5px;
+    padding: 10px;
+    display: inline-block; 
+   
+}
+.quote{
+    font-style: italic;
 }
 /*Work Experience
 ---------------------------*/
