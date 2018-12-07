@@ -20,7 +20,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin:0;
 }
-h1, h2 {
+h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700
 }
@@ -32,24 +32,33 @@ h2{
     margin-top: 0;
     font-weight: 700
 }
-a {
+h3{
+    margin: 0;
+}
+    a {
     color: mediumblue;       
 }
-.contentWrap {
+.content-wrap {
     max-width:950px;
     margin:0 auto;
     padding: 50px;
     overflow: hidden;
 }
-.colNarrow {
+.col-narrow {
     width: 30%;
     float: left;
+   
+    
+    
 }
-.colWide {
+.col-wide {
     width: 70%;
     float:left;
     padding-left: 25px
     
+}
+.upper-case {
+    text-transform: uppercase;
 }
 
 /*header and footer
@@ -84,16 +93,31 @@ footer{
 .quote{
     font-style: italic;
 }
-/*Work Experience
+/*Skills 
 ---------------------------*/
 .skills  {
     background: #6E8898; 
     color: #FFFEF9
 }
+h3 ~p {
+    margin: 0;
+    
+}
+.skill-description{
+    margin-bottom: 70px;
+}
+.skill-description p:first-of-type {
+    margin-top:0;    
+}
+
 
 /*Education
 ---------------------------*/
 .education {
     background: #D3D0CB;
     color: black;
+}
+h3 + p{
+        margin-top: 20px;
+    }    
 }
