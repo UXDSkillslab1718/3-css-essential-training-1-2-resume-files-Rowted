@@ -41,15 +41,12 @@ h3{
 .content-wrap {
     max-width:950px;
     margin:0 auto;
-    padding: 50px;
+    padding: 60px 50px;
     overflow: hidden;
 }
 .col-narrow {
     width: 30%;
-    float: left;
-   
-    
-    
+    float: left;    
 }
 .col-wide {
     width: 70%;
@@ -60,7 +57,13 @@ h3{
 .upper-case {
     text-transform: uppercase;
 }
-
+.button{
+    text-decoration: none;
+    background: #FFFEF9;
+    color: black;
+    padding:10px;
+    display: inline-block;
+}
 /*header and footer
 ---------------------------*/
 header, footer {
@@ -69,30 +72,66 @@ header, footer {
 /* header */
 .profileImg {
     border-radius: 50%;
+    margin-top: 30px;
+}
+.download{
+    position: absolute;
+    bottom: 0;
+    right:0;
 }
 header {
-    text-align: center;
+    padding-top: 50px;
+    position: relative;
+
+    
+    
 }
 header h1, header h2{
     color: #FFFDFC;
     margin: 0;
 }
- 
-
+.quote{
+    font-style: italic;
+}
 /* footer */
 footer{
     text-align: center;
+    
 }
 .contactInfo a {
     background: #FFFEF9;
     margin: 5px;
     padding: 10px;
     display: inline-block; 
-   
+    text-decoration: none;
+    color: cornflowerblue;
 }
-.quote{
-    font-style: italic;
+.contactInfo a:hover {
+    text-decoration: underline;
 }
+
+
+/*Nav styles
+----------------------------*/
+nav{
+    text-align: center;
+    background:#FFFEF9;
+    position:fixed;
+    top:0;
+    width: 100%;
+}
+nav a {
+    display: inline-block;
+    padding: 15px 30px;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-weight:700;
+    color:black;
+}
+nav a:hover {
+    text-decoration:underline;
+}
+
 /*Skills 
 ---------------------------*/
 .skills  {
@@ -103,6 +142,7 @@ h3 ~p {
     margin: 0;
     
 }
+
 .skill-description{
     margin-bottom: 70px;
 }
@@ -120,4 +160,5 @@ h3 ~p {
 h3 + p{
         margin-top: 20px;
     }    
-}
+/*Contact
+---------------------------*/
